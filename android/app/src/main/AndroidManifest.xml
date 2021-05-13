@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lazyshare">
+    <uses-permission android:name="android.permission.INTERNET"/> 
    <application
-        android:label="lazyshare"
+   
+        android:label="LazyShare"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

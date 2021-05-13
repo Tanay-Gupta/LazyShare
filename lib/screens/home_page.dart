@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Padding(
-                padding: EdgeInsets.fromLTRB(20, 15, 0, 10),
+                padding: EdgeInsets.fromLTRB(20, 0, 0, 10),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -44,12 +44,15 @@ class HomePage extends StatelessWidget {
                         Text(
                           "LazyShare",
                           style: TextStyle(
-                              color: Colors.black,
+                              color: Colors.white,
                               fontSize: 50,
                               fontWeight: FontWeight.w900),
                         ),
                         IconButton(
-                            icon: Icon(Icons.settings),
+                            icon: Icon(
+                              Icons.settings,
+                              color: Colors.white,
+                            ),
                             onPressed: () {
                               Navigator.pushNamed(context, "/settings");
                             })
@@ -58,20 +61,6 @@ class HomePage extends StatelessWidget {
                     SizedBox(
                       height: size.height * .06,
                     ),
-                    // Text(
-                    //   "SEND WHATSAPP MESSAGES WITHOUT",
-                    //   style: TextStyle(
-                    //     color: Colors.black,
-                    //     fontSize: 12,
-                    //   ),
-                    // ),
-                    // SizedBox(
-                    //   height: size.height * .002,
-                    // ),
-                    // Text(
-                    //   "SAVING NUMBERS",
-                    //   style: TextStyle(color: Colors.black, fontSize: 12),
-                    // )
                   ],
                 ),
               ),
@@ -130,7 +119,7 @@ class HomePage extends StatelessWidget {
                             height: size.height * .03,
                           ),
                           RoundedTextField(
-                            color: Colors.teal,
+                            color: Colors.teal.shade700,
                             text: "Enter Message (Optional)",
                             privacy: false,
                             icon: Icons.message,
@@ -174,7 +163,7 @@ class HomePage extends StatelessWidget {
                             //},
                           ),
                           SizedBox(
-                            height: size.height * .15,
+                            height: size.height * .06,
                           ),
                           Text(
                             "DESIGNED WITH 🖤 IN INDIA ",
