@@ -14,8 +14,6 @@ class CodePicker extends StatelessWidget {
         color: Colors.grey.shade300,
         borderRadius: BorderRadiusDirectional.circular(29),
         child: Container(
-            // decoration: BoxDecoration(
-            //     borderRadius: BorderRadius.circular(29), color: Colors.yellow),
             height: 55,
             width: size.width * .8,
             child: Row(
@@ -61,15 +59,6 @@ class CodePicker extends StatelessWidget {
                       decoration: InputDecoration(
                         hintText: "Enter Number",
                         border: InputBorder.none,
-                        // icon: Icon(
-                        //   Icons.ac_unit,
-                        //   color: Colors.blue,
-                        // ),
-                        // suffixIcon: Icon(
-                        //   Icons.call,
-                        //   color: Colors.green,
-                        // )
-                        //),
                       ),
                     ),
                   ),
