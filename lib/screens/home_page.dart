@@ -7,9 +7,8 @@ import 'package:url_launcher/url_launcher.dart';
 
 // ignore: must_be_immutable
 class HomePage extends StatelessWidget {
-  //final _formkey = GlobalKey<FormState>();
   final TextEditingController number = TextEditingController();
-  //final TextEditingController code = TextEditingController();
+
   final TextEditingController msg = TextEditingController();
   String code = '+91';
   @override
