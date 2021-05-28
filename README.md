@@ -1,16 +1,14 @@
-# lazyshare
+# LazyShare
 
-A new Flutter project.
+Want to save time while dealing with boomers at your nearest cyber cafes?
 
-## Getting Started
+We gotch you covered guys. Say Hi to LazyShare 👋
 
-This project is a starting point for a Flutter application.
+LazyShare helps you to chat with someone directly on WhatsApp without saving phone numbers.
+Just enter their phone number and you're ready to go. And again it's super easy to use and 100% free.
 
-A few resources to get you started if this is your first Flutter project:
+![App UI](/screenshot1.png)
+![App UI](/screenshot2.png) 
+![App UI](/logo.png) 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
